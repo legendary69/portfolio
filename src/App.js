@@ -1,7 +1,17 @@
-import 'bootstrap/dist/css/bootstrap.min.css';
+import './App.scss';
+import Navbar from './Components/Navbar';
 
 function App() {
-  return 
+  	return (
+		<div className="App">
+			<div className="sidebar">
+				<Navbar />
+			</div>
+			<div className="main-content">
+			  
+		  	</div>
+		</div>
+  	)
 }
 
 export default App;
