@@ -1,8 +1,8 @@
-import blog1 from '../img/blog/blog1.svg';
-import blog2 from '../img/blog/blog2.svg';
-import blog3 from '../img/blog/blog3.svg';
-import blog5 from '../img/blog/blog5.svg';
-import blog4 from '../img/blog/blog4.svg';
+import blog1 from '../img/blogs/blog1.svg';
+import blog2 from '../img/blogs/blog2.svg';
+import blog3 from '../img/blogs/blog3.svg';
+import blog4 from '../img/blogs/blog4.svg';
+import blog5 from '../img/blogs/blog5.svg';
 
 const blogs = [
     {
@@ -54,6 +54,24 @@ const blogs = [
         id: 6,
         image: blog5,
         title: 'UI/UX Design Starter with Figma',
+        link: 'https://www.facebook.com/',
+        date : '09',
+        month: 'Sep',
+        year: '2019'
+    },
+    {
+        id: 7,
+        image: blog3,
+        title: 'Test Blogs data1',
+        link: 'https://www.facebook.com/',
+        date : '09',
+        month: 'Sep',
+        year: '2019'
+    },
+    {
+        id: 8,
+        image: blog1,
+        title: 'Test Blogs data2',
         link: 'https://www.facebook.com/',
         date : '09',
         month: 'Sep',

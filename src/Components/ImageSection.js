@@ -1,16 +1,18 @@
-import React from 'react'
-import about from '../img/about.jpg'
+import React from 'react';
+import about from '../img/about.png';
 
 function ImageSection() {
     return (
         <div className="ImageSection">
             <div className="img">
-                <img src={about} alt="" />
+                <img src={about} alt=""/>
             </div>
             <div className="about-info">
-                <h4>I am<span> Singh Anshuman</span></h4>
+                <h4>I am<span> Lorem Ipsum</span></h4>
                 <p className="about-text">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Voluptatum necessitatibus perferendis numquam dolorem cumque facilis.
+                    Desir per po la ta doso vi slone ve?
                 </p>
                 <div className="about-details">
                     <div className="left-section">
@@ -19,21 +21,21 @@ function ImageSection() {
                         <p>Nationality</p>
                         <p>Languages</p>
                         <p>Address</p>
-                        <p>Languages</p>
+                        <p>Countries</p>
                     </div>
                     <div className="right-section">
-                        <p className="p-margin-left">: Lorem Ipsum</p>
-                        <p className="p-margin-left">: 22</p>
-                        <p className="p-margin-left">: Indian</p>
-                        <p className="p-margin-left">: English, Hindi, Gujarati</p>
-                        <p className="p-margin-left">: Surat, Gujarat, India - 395004</p>
-                        <p className="p-margin-left">: English, Hindi, Gujarati</p>
+                        <p>: Lorem Ipsum</p>
+                        <p>: 50</p>
+                        <p>: French</p>
+                        <p>: French, Spanish, English</p>
+                        <p>: 2 Beightbridge, BN7 GB9, United kingdom</p>
+                        <p>: France, Spain, Germany</p>
                     </div>
                 </div>
-                <button className="btn">Download CV</button>
+                <button className="btn">Download Cv</button>
             </div>
         </div>
     )
 }
 
-export default ImageSection
+export default ImageSection;

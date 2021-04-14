@@ -1,8 +1,8 @@
-import React from 'react'
+import React from 'react';
 
-function ServiceSection({image, title, text}) {
+function ServicesSection({image, title, text}) {
     return (
-        <div className="ServiceSection">
+        <div className="ServicesSection">
             <div className="service">
                 <div className="service-content">
                     <img src={image} alt=""/>
@@ -16,4 +16,4 @@ function ServiceSection({image, title, text}) {
     )
 }
 
-export default ServiceSection
+export default ServicesSection;

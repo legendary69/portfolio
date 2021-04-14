@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 import avatar from '../img/avatar.jpeg';
 import {NavLink} from 'react-router-dom';
 
@@ -7,8 +7,9 @@ function Navbar() {
         <div className="NavBar">
             <nav className="nav">
                 <div className="profile">
-                    <img src={avatar} alt="" />
-                </div>
+                    <img src={avatar} alt=""/>
+                 </div>
+
                 <ul className="nav-items">
                     <li className="nav-item">
                         <NavLink to="/" exact activeClassName="active">
@@ -21,8 +22,8 @@ function Navbar() {
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/portfolio" exact activeClassName="active">
-                            Portfolio
+                        <NavLink to="/portfolios" exact activeClassName="active">
+                            Portfolios
                         </NavLink>
                     </li>
                     <li className="nav-item">
@@ -31,19 +32,21 @@ function Navbar() {
                         </NavLink>
                     </li>
                     <li className="nav-item">
-                        <NavLink to="/Contact" exact activeClassName="active">
+                        <NavLink to="/contact" exact activeClassName="active">
                             Contact
                         </NavLink>
                     </li>
                 </ul>
+
                 <footer className="footer">
                     <p>
                         @2021 Lorem Ipsum
                     </p>
-                </footer>
+            </footer>
             </nav>
+            
         </div>
     )
 }
 
-export default Navbar
+export default Navbar;
